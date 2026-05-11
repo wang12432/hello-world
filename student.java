@@ -126,6 +126,8 @@ public class StudentScoreManager {
         }
 
          getter方法
+
+      1232123123123123dfgjdshgsd
         public int getId() { return id; }
         public String getName() { return name; }
         public int getScore() { return score; }
