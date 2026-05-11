@@ -71,61 +71,6 @@ public class StudentScoreManager {
             return 0.0;
         }
         int totalScore = 0;
-        for (Student student  studentList) {
-            totalScore += student.getScore();
-        }
-        return (double) totalScore  studentList.size();
-    }
-
-    
-      筛选90分以上学生
-     
-    private static ListStudent filterHighScoreStudents(ListStudent studentList) {
-        ListStudent highScoreList = new ArrayList();
-        for (Student student  studentList) {
-            if (student.getScore() = 90) {
-                highScoreList.add(student);
-            }
-        }
-        return highScoreList;
-    }
-
-    
-      统计分数段人数
-     
-    private static void countScoreRange(ListStudent studentList) {
-        int excellent = 0, good = 0, pass = 0;
-        for (Student student  studentList) {
-            int score = student.getScore();
-            if (score = 90) {
-                excellent++;
-            } else if (score = 80) {
-                good++;
-            } else {
-                pass++;
-            }
-        }
-        System.out.println(n===== 分数段统计 =====);
-        System.out.println(优秀(90+)： + excellent +  人);
-        System.out.println(良好(80-89)： + good +  人);
-        System.out.println(及格(60-79)： + pass +  人);
-    }
-
-    
-      学生内部类
-     
-    static class Student {
-        private int id;
-        private String name;
-        private int score;
-
-        public Student(int id, String name, int score) {
-            this.id = id;
-            this.name = name;
-            this.score = score;
-        }
-
-         getter方法
 
       1232123123123123dfgjdshgsd
         public int getId() { return id; }
