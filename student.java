@@ -27,7 +27,7 @@ public class StudentScoreManager {
 
          4. 筛选高分学生（90分及以上）
         ListStudent highScoreStudents = filterHighScoreStudents(studentList);
-        System.out.println(n===== 90分以上优秀学生 =====);
+        System.out.println(n==生 =====);
         printStudentList(highScoreStudents);
 
          5. 统计各分数段人数
@@ -36,17 +36,5 @@ public class StudentScoreManager {
 
     
     
-      计算班级平均分
-     
-    private static double calculateAverageScore(ListStudent studentList) {
-        if (studentList.isEmpty()) {
-            return 0.0;
-        }
-        int totalScore = 0;
-
-      1232123123123123dfgjdshgsd
-        public int getId() { return id; }
-        public String getName() { return name; }
-        public int getScore() { return score; }
-    }
+  
 }
